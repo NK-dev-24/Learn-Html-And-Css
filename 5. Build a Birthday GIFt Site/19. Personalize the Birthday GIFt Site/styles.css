@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(#000000, #FF0000);
     color: #ffffff;
 }
 
@@ -12,12 +12,12 @@ h1, h2, h3, h4, p {
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid  #FF0000;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #ff0000;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #ff0000;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -49,7 +49,7 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-cheers {
-    height: 200px;
+    height: 500px;
 }
 
 .gift-img {
@@ -63,11 +63,12 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+    background-size: cover;
+    background-image: url("images/v_meme.jpg");
 }
 
 #gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+    background-image: url("images/fire.gif");
 }
 
 #gift-img-genius:hover {
@@ -75,11 +76,12 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("images/S_meme.webp");
 }
 
 #gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+    background-image: url("images/L_meme.jpg");
+    background-size: cover;
 }
 
 #footer {
