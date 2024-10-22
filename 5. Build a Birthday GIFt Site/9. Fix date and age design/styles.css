@@ -25,3 +25,9 @@ h2, h4 {
     flex-direction: column;
     align-items: center;
 }
+
+#age-header, #date-header{
+    padding: 7px 6px;
+    border-radius: 6px;
+    margin: 6px 0px;
+}
